@@ -1,0 +1,17 @@
+/* ul,li{
+    display: inline-flex;
+    margin-left: 5%;
+   
+} */
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+.nav-items{
+    color:white;
+}
+
+.nav-link:active{
+    color: bisque;
+}
