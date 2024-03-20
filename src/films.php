@@ -27,7 +27,7 @@ $data=json_decode($response);
     // $name=$data->id->name;
     echo "<h1 style='color:white;background-color:gray;text-align:center;margin-top:5%;'>Companies: $name </br>Title: $title</h1>";
     echo"<div style='margin-top:10%'>
-    <iframe width='760' style='aspect-ratio:16/9;margin:auto;display:block;margin-bottom:2%;border-color:blue;margin-top:2%;margin-bottom:2%;' src='$homepage' frameborder='40' allowfullscreen></iframe>
+    <iframe style='aspect-ratio:16/9;margin:auto;width:90%;display:block;margin-bottom:2%;border-color:blue;margin-top:2%;margin-bottom:2%;' src='$homepage' frameborder='40' allowfullscreen></iframe>
         </div>
         ";
 
@@ -40,7 +40,7 @@ $data=json_decode($response);
     <link rel="stylesheet" href="css/style.css">
     <title>SANTE et Bien ETRE</title>
 </head>
-<body style='background-color:gray;'>
+<body style='background-color:whitesmoke;'>
 </body>
 </html>
 <script>

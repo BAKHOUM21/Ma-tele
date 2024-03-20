@@ -18,7 +18,7 @@ foreach($data->items as $row){
     $videoTitle=$row->id->kind;
     //echo "<h1 style='color:white;background-color:gray;text-align:center;margin-top:5%;'>Match terminé</h1>";
     echo"<div style='margin-top:10%'>
-    <iframe width='760' style='aspect-ratio:16/9;margin:auto;display:block;margin-bottom:2%;border-color:blue;margin-top:2%' src='https://www.youtube.com/embed/$videoId' frameborder='40' allowfullscreen></iframe>
+    <iframe style='aspect-ratio:16/9;width:90%;margin:auto;display:block;margin-bottom:2%;border-color:blue;margin-top:2%' src='https://www.youtube.com/embed/$videoId' frameborder='40' allowfullscreen></iframe>
         </div>
         ";
 }
@@ -31,7 +31,7 @@ foreach($data->items as $row){
     <link rel="stylesheet" href="../css/style.css">
     <title>TFM</title>
 </head>
-<body style='background-color:gray;'>
+<body style='background-color:whitesmoke;'>
 </body>
 </html>
 <script>
