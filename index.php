@@ -1,6 +1,6 @@
 <!-- UTILISATION DE L'API DE YOUTUBE AVEC PHP -->
 <?php
-include('navbar.php');
+include('src/navbar.php');
 // Cle de l'API
 $apiKey="AIzaSyBfOP2M8RLO7yH25GsuxNeHWKzJAS04_BA";
 // ID de la chaine
@@ -29,7 +29,7 @@ foreach($data->items as $row){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Canal</title>
 </head>
 <body style='background-color:whitesmoke;'>
@@ -39,3 +39,4 @@ foreach($data->items as $row){
     let datas= <?=json_encode($response)?>;
     console.log(datas);
 </script>
+
